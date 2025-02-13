@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 from .product import Product
 from typing import List
-import sys
 import pandas as pd
 
 class Creator(ABC):
